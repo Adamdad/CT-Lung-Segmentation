@@ -14,11 +14,17 @@ This repository contains a Pytorch implementation of Lung CT image segmentation 
 
 ## Requirement
 jupyter
+
 numpy
+
 opencv-python
+
 Pillow
+
 torch
+
 torchvision
+
 tqdm
 
     pip install -r requirements.txt
