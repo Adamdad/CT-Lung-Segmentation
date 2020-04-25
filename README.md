@@ -1,4 +1,4 @@
-# CT-Segmantation
+# CT-Lung-Segmentation
 Pytorch implementation of Lung CT image segmentation Using U-net
 
 **Figure 1: Original CT images**
