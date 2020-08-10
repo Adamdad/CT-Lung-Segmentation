@@ -2,8 +2,8 @@
 <project version="4">
   <component name="WebServers">
     <option name="servers">
-      <webServer id="6b34021f-cb8e-49d0-ae90-175f489fc001" name="p100_2" url="http://ec2-54-202-6-218.us-west-2.compute.amazonaws.com">
-        <fileTransfer host="ec2-54-202-6-218.us-west-2.compute.amazonaws.com" port="22" privateKey="D:\ucsd\UCSD-AI4H-p100.pem" rootFolder="/home/ubuntu" accessType="SFTP" keyPair="true">
+      <webServer id="6b34021f-cb8e-49d0-ae90-175f489fc001" name="ec2-54-200-60-230.us-west-2.compute.amazonaws.com" url="http://ec2-54-200-60-230.us-west-2.compute.amazonaws.com">
+        <fileTransfer host="ec2-54-200-60-230.us-west-2.compute.amazonaws.com" port="22" privateKey="D:\ucsd\UCSD-AI4H-p100.pem" rootFolder="/home/ubuntu" accessType="SFTP" keyPair="true">
           <advancedOptions>
             <advancedOptions dataProtectionLevel="Private" />
           </advancedOptions>

@@ -107,7 +107,7 @@ def main():
         model = nn.DataParallel(model).to(device)
     optimizer = torch.optim.SGD(model.parameters(), lr=1e-3, momentum=0.9)
     lr_sheduler = torch.optim.lr_scheduler.CosineAnnealingLR(optimizer, T_max=10)
-    LOSS_FUNC = nn.CrossEntropyLoss().to(device)
+    LOSS_FUNC = DiceCELoss().to(device)
     PRINT_INTERVAL = 5
     EPOCH= 100
     if args.resume:

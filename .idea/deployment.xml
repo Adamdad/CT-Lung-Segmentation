@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
-  <component name="PublishConfigData" serverName="p100_2">
+  <component name="PublishConfigData" serverName="ec2-54-200-60-230.us-west-2.compute.amazonaws.com">
     <serverData>
-      <paths name="p100_2">
+      <paths name="ec2-54-200-60-230.us-west-2.compute.amazonaws.com">
         <serverdata>
           <mappings>
             <mapping deploy="/yxy/CT-Seg" local="$PROJECT_DIR$" web="/" />
